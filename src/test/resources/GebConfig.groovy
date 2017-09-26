@@ -1,8 +1,10 @@
-import org.openqa.selenium.firefox.FirefoxDriver
+import org.openqa.selenium.chrome.ChromeDriver
 
-driver = { new FirefoxDriver() }
-webdriver.gecko.driver= "geckodriver.exe"
+driver = {
+    webdriver.chrome.driver = "chromedriver.exe"
+    new ChromeDriver()
+}
 
-baseUrl = "http://www.calculator.net/conversion-calculator.html"
+baseUrl = "http://www.calculator.net"
 
 

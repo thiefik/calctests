@@ -1,13 +1,20 @@
 import geb.spock.GebSpec
+import pages.ConversionPage
+import pages.MainPage
 
-
-class CalcMainPageSpec extends GebSpec{
-    def "Go to main page"(){
+class CalcMainPageSpec extends GebSpec {
+    def "Go to main page"() {
         when:
-            go baseUrl
+        to MainPage
         then:
-        1==1
+        at MainPage
     }
 
+    def "Go to calculator page"() {
+        when:
+        to ConversionPage
+        then:
+        at ConversionPage
+    }
 
 }

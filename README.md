@@ -4,23 +4,25 @@ Simple project of functional tests for: http://www.calculator.net/conversion-cal
 
 ## Instaling
 ```
-   git clone  https://github.com/thiefik/calctests.git
+git clone https://github.com/thiefik/calctests.git
 ```
 
 ## Running
 To run all tests you need to triger run task from gradle. 
 ```
-   ./gradlew test
+./gradlew test
+```
+Results are located in:
+```
+build/reports/tests/test/index.html
 ```
 
 ## Used technologies
-* Groovy 
+* Groovy
 * Gradle
 * Spock
 * Geb
-
-## TODO
-TODO
+* Chromedriver
 
 ## Author
 Paweł Bogdanowicz [thiefik](https://github.com/thiefik)
