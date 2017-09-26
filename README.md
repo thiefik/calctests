@@ -8,7 +8,7 @@ git clone https://github.com/thiefik/calctests.git
 ```
 
 ## Running
-To run all tests you need to triger run task from gradle. 
+To run all tests you need to triger task 'test' from gradle. 
 ```
 ./gradlew test
 ```
