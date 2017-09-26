@@ -8,9 +8,13 @@ git clone https://github.com/thiefik/calctests.git
 ```
 
 ## Running
-To run all tests you need to triger task 'test' from gradle. 
+To run all tests on Windows you need to triger task 'test' from gradle. 
 ```
-./gradlew test
+gradlew.bat test
+```
+On Linux
+```
+./gradlew -Dwebdriver.chrome.driver=drivers/chromedrive test
 ```
 Results are located in:
 ```
