@@ -14,7 +14,7 @@ gradlew.bat test
 ```
 On Linux
 ```
-./gradlew -Dwebdriver.chrome.driver=drivers/chromedrive test
+./gradlew -Dwebdriver.chrome.driver=drivers/chromedriver test
 ```
 Results are located in:
 ```
