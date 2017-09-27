@@ -10,4 +10,4 @@ before_install:
  - chmod +x gradlew
 
 install:
-- ./gradlew -Dwebdriver.chrome.driver=drivers/chromedriver test
+- ./gradlew test

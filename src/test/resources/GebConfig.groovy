@@ -1,7 +1,7 @@
 import org.openqa.selenium.chrome.ChromeDriver
 
 driver = {
-    webdriver.chrome.driver = "chromedriver.exe"
+    webdriver.chrome.driver = "chromedriver"
     new ChromeDriver()
 }
 
